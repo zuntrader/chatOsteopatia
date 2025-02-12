@@ -52,17 +52,17 @@ if "retry_error" not in st.session_state:
 
 # Set up the page
 st.set_page_config(page_title="AI Law", page_icon=":robot_face:", layout="wide")
-set_background('./assett/sfondo.svg')
+#set_background('./assett/sfondo.svg')
 st.sidebar.title("AI Law")
 st.sidebar.markdown('''
     ## About
 AI-based tool 🤖 that optimizes legal professionals' research activities in doctrine and case law ⚖️
     ''')
 st.sidebar.divider()
-st.sidebar.image('./assett/logo.svg', width=200)
+#st.sidebar.image('./assett/logo.svg', width=200)
 st.sidebar.divider()
 # Indirizzo email predefinito
-email_address = 'f.gabri@icloud.com'
+email_address = 'davide.zunino@gmail.com'
 
 # Creazione del pulsante Markdown che apre il client di posta elettronica predefinito
 st.sidebar.link_button("Send Feedback", "mailto:{email_address}?subject=Feedback&body=Insert here your feedback")
