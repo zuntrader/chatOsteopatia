@@ -51,7 +51,7 @@ if "retry_error" not in st.session_state:
     st.session_state.retry_error = 0
 
 # Set up the page
-st.set_page_config(page_title="AI Law", page_icon=":robot_face:", layout="wide")
+st.set_page_config(page_title="Osteopathic AI", page_icon=":robot_face:", layout="wide")
 #set_background('./assett/sfondo.svg')
 st.sidebar.title("Andrea Pastorello Osteopathic AI")
 st.sidebar.markdown('''
