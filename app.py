@@ -53,7 +53,7 @@ if "retry_error" not in st.session_state:
 # Set up the page
 st.set_page_config(page_title="AI Law", page_icon=":robot_face:", layout="wide")
 #set_background('./assett/sfondo.svg')
-st.sidebar.title("AI Law")
+st.sidebar.title("Andrea Pastorello Osteopathic AI")
 st.sidebar.markdown('''
     ## About
 AI-based tool that provides osteopathic help
