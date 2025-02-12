@@ -68,7 +68,7 @@ email_address = 'davide.zunino@gmail.com'
 st.sidebar.link_button("Send Feedback", "mailto:{email_address}?subject=Feedback&body=Insert here your feedback")
 
 # File uploader for CSV, XLS, XLSX
-st.image('./assett/logo.svg', width=200)
+#st.image('./assett/logo.svg', width=200)
 uploaded_file = st.file_uploader("Upload your file", type=["pdf", "csv", "xls", "xlsx"])
 
 if uploaded_file is not None:
