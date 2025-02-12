@@ -56,7 +56,7 @@ st.set_page_config(page_title="AI Law", page_icon=":robot_face:", layout="wide")
 st.sidebar.title("AI Law")
 st.sidebar.markdown('''
     ## About
-AI-based tool 🤖 that optimizes legal professionals' research activities in doctrine and case law ⚖️
+AI-based tool that provides osteopathic help
     ''')
 st.sidebar.divider()
 #st.sidebar.image('./assett/logo.svg', width=200)
